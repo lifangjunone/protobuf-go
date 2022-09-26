@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package hello;
 
-option go_package="protobuf-go/proto";
+option go_package="protobuf-go/pb";
 
 message String {
   string value = 1;
