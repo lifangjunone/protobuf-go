@@ -2,5 +2,5 @@
 ### command
 ```shell
 
-protoc -I=. --go_out=./ --go_opt=module="protobuf-go/pb" ./hello.proto
+protoc -I=. --go_out=./ --go_opt=module="protobuf-go/" ./hello.proto
 ```

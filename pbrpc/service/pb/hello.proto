@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package hello;
+
+option go_package="protobuf-go/pbrpc/service";
+
+message Request {
+  string Value = 1;
+}
+
+message Response {
+  string Value = 1;
+}
